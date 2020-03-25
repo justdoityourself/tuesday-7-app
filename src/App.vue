@@ -38,6 +38,7 @@
     </v-app-bar>
 
     <v-content>
+      <Jacob/>
       <Andrew/>
       <HelloWorld/>
     </v-content>
@@ -47,14 +48,17 @@
 <script>
 import HelloWorld from './components/HelloWorld';
 import Andrew from './components/Andrew';
+import Jacob from './components/Jacob';
 
 export default {
   name: 'App',
 
   components: {
     HelloWorld,
-    Andrew
+    Andrew,
+    Jacob
   },
+
 
   data: () => ({
     //
