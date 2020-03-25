@@ -38,6 +38,7 @@
     </v-app-bar>
 
     <v-content>
+      <Luke/>
       <caleb/>
       <Ed/>
       <Jacob/>
@@ -52,7 +53,8 @@ import HelloWorld from './components/HelloWorld';
 import Andrew from './components/Andrew';
 import Jacob from './components/Jacob';
 import Ed from './components/Ed';
-import caleb from './components/caleb'
+import caleb from './components/caleb';
+import Luke from './components/Luke';
 
 export default {
   name: 'App',
@@ -62,7 +64,8 @@ export default {
     Andrew,
     Jacob,
     Ed,
-    caleb
+    caleb,
+    Luke,
   },
 
 
