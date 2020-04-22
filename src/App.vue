@@ -74,3 +74,7 @@ export default {
   }),
 };
 </script>
+
+<style>
+  @import './css/vgrid.css';
+</style>
