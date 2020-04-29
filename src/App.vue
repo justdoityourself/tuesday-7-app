@@ -38,6 +38,7 @@
     </v-app-bar>
 
     <v-content>
+      <forloop/>
       <Luke/>
       <caleb/>
       <Ed/>
@@ -55,6 +56,7 @@ import Jacob from './components/Jacob';
 import Ed from './components/Ed';
 import caleb from './components/caleb';
 import Luke from './components/Luke';
+import forloop from './components/Concepts/ForLoop';
 
 export default {
   name: 'App',
@@ -66,6 +68,7 @@ export default {
     Ed,
     caleb,
     Luke,
+    forloop
   },
 
 
