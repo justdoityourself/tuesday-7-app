@@ -1,5 +1,10 @@
 <template>
     <div>
+      <template v-for="(item, index) in names">
+            <div :key=index>{{item}}</div>
+
+      </template>
+        
         <div class=gvt style='--gg:4px;--gr:1fr 1fr 1fr;--gc:1fr 1fr 1fr;width:180px;height:180px;background:lightgrey;'>
           <template v-for="(item, index) in board">
             <div v-if='item.x' :key=index class=gvt style='--gr:1fr;--gc:1fr;background:blue;'>X</div>
@@ -18,6 +23,11 @@
 export default {
   data: () => ({
     name:"Jacob",
+    names:
+    [ "Step 1 disconnect battery.",
+      "Step 2 locate alternator.",
+      "Step 3 remove serpentine belt.",
+    ],
     board:
     [
       {o:false,x:false},{o:false,x:false},{o:false,x:false},
